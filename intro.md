@@ -1,0 +1,4 @@
+# <span style="color:rgb(0,225,0)">Telescope</span>
+It is a device that gather light. Those gathered light are concentrated in a smaller area forming a small image of the object. Then this obtained image is magnified with respect eyepiece. The light gathering power depends on the diameter of the optical element (mirror / lens). The gathering of light is directly proportional to the diameter of the optical element. The diameter also determine the amount of details that can be observed. *The relation between the diameter of the optical element and light gathering is not linear. the light gather is proportional to the square of the diameter*. The diameter of human pupil is 1/4inch. 
+The size of the main mirror or lens determines how well a telescope can collect light. The larger a mirror or lens, the more light it collects, and the better its ability to detect fainter objects.
+### Types
