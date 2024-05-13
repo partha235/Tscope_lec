@@ -11,6 +11,7 @@ t.setpos(-250,0)  # set pen position
 t.pendown()
 sleep(2)
 def refractor(size):
+    screen.title("Refractor telescope")
     t.pensize(size**2)
     t.pencolor("red")
     t.fd(50)
@@ -31,6 +32,9 @@ def refractor(size):
         x+=1
         t.pensize(x)
         t.fd(2)
+    t.pencolor("black")
+    t.fd(5)
+    t.pencolor("red")
     t.fd(20)
 
 refractor(10)
