@@ -1,50 +1,53 @@
-import turtle as t
+import turtle as t  # import library
+from time import sleep
+# screen=t.Screen()
+# print(screen)
+# screen._root.geometry("+200+200")
+t.speed(1) # pen speed.
+t.setup(width=1000, height=600) # declaring windows size
+print(t.pos()) # pen position
+t.pencolor("red")
+t.penup()
+t.setpos(-250,0) 
+t.pendown()
+t.pensize(100)
+t.fd(50)
+t.penup()
+t.fd(5+5+10+30+2)
+t.pencolor("black")
+t.pendown()
+t.pensize(20)
+t.fd(5)
+t.penup()
+t.bk(5)
+l1=t.Turtle()
+l2=t.Turtle()
+l1.penup()
+l2.penup()
+l1.setpos(-158,20)
+l2.setpos(-158,-20)
+l1.pendown()
+l2.pendown()
+l1.setheading(0)
+l2.setheading(0)
+l1.pensize(30)
+l1.pencolor("red")
+l2.pensize(30)
+l2.pencolor("red")
+l1.fd(200)
+l1.pencolor("blue")
+l1.pensize(5)
+l1.right(90+45+10+10+10+10)
+l1.fd(175)
+l1.setheading(270)
+l1.fd(100)
 
-# Set up the screen
-screen = t.Screen()
-screen.setup(width=800, height=600)
-screen.title("Reflective Telescope Simulation")
-t.speed(1)
-# t.pensize(50)
-# Draw the optical setup
-def draw_optical_setup():
-    # Draw the mirror
-    t.penup()
-    t.goto(-200, 0)
-    t.pendown()
-    t.setheading(90)
-    t.forward(100)
-    t.left(90)
-    t.forward(400)
-    t.left(90)
-    t.forward(100)
-    t.left(90)
-    t.forward(400)
-    
-    # Draw the light source
-    t.penup()
-    t.goto(-250, 150)
-    t.dot(10, "yellow")
-    
-    # Draw the light rays
-    t.penup()
-    t.goto(-250, 150)
-    t.pendown()
-    t.setheading(70)
-    t.forward(300)
-    
-    t.penup()
-    t.goto(-250, 150)
-    t.pendown()
-    t.setheading(110)
-    t.forward(300)
+l2.fd(200)
+l2.pencolor("blue")
+l2.pensize(5)
+l2.left(175)
+l2.fd(175)
+l2.setheading(270)
+l2.fd(100)
 
-# Main function to run the simulation
-def main():
-    t.speed(0)
-    draw_optical_setup()
-    t.hideturtle()
-    t.done()
-
-if __name__ == "__main__":
-    main()
+t.mainloop()
