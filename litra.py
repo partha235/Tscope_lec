@@ -1,21 +1,20 @@
 import turtle as t  # import library
 from time import sleep
 
-def initiate():
-    screen=t.Screen()
-    print(screen)
-    screen._root.geometry("+200+200")
-    t.speed(1) # pen speed.
-    t.setup(width=1000, height=600) # declaring windows size
-    print(t.pos()) # pen position
-    t.penup()
-    t.setpos(-250,0)  # set pen position
-    t.pendown()
-    sleep(2)
-    l1=t.Turtle()
-    l1.speed(1)
-    l2=t.Turtle()
-    l2.speed(1)
+screen=t.Screen()
+print(screen)
+screen._root.geometry("+200+200")
+t.speed(1) # pen speed.
+t.setup(width=1000, height=600) # declaring windows size
+print(t.pos()) # pen position
+t.penup()
+t.setpos(-250,0)  # set pen position
+t.pendown()
+sleep(2)
+l1=t.Turtle()
+l1.speed(1)
+l2=t.Turtle()
+l2.speed(1)
 
 
 def refractor():
