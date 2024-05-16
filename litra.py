@@ -1,16 +1,21 @@
 import turtle as t  # import library
 from time import sleep
 
-screen=t.Screen()
-print(screen)
-screen._root.geometry("+200+200")
-t.speed(10) # pen speed.
-t.setup(width=1000, height=600) # declaring windows size
-print(t.pos()) # pen position
-t.penup()
-t.setpos(-250,0)  # set pen position
-t.pendown()
-sleep(2)
+def initiate():
+    screen=t.Screen()
+    print(screen)
+    screen._root.geometry("+200+200")
+    t.speed(1) # pen speed.
+    t.setup(width=1000, height=600) # declaring windows size
+    print(t.pos()) # pen position
+    t.penup()
+    t.setpos(-250,0)  # set pen position
+    t.pendown()
+    sleep(2)
+    l1=t.Turtle()
+    l1.speed(1)
+    l2=t.Turtle()
+    l2.speed(1)
 
 
 def refractor():
@@ -42,7 +47,7 @@ def refractor():
 
 
 def reflector():
-    screen.title("Newtonian Reflector")
+    screen.title("Newtonian Reflector Telescope")
     # light entering 
     t.speed(1) # pen speed.
     t.setup(width=1000, height=600) # declaring windows size
@@ -63,11 +68,7 @@ def reflector():
     t.pensize(20)
     t.fd(5)
 
-
-
     # light ray in side of secondary mirror
-    l1=t.Turtle()
-    l2=t.Turtle()
     l1.penup()
     l2.penup()
     l1.setpos(-158,30)
@@ -95,7 +96,6 @@ def reflector():
     t.penup()
     t.bk(5)
     t.fd(180)
-
     t.fillcolor("blue")
     t.begin_fill()
     t.pensize(1)
@@ -104,7 +104,6 @@ def reflector():
     t.setheading(90)
     t.right(25)
     t.circle(125,50)
-
     t.setheading(0)
     t.fd(15)
     t.right(90)
@@ -112,9 +111,7 @@ def reflector():
     t.right(90)
     t.fd(15)
     t.hideturtle()
-
     t.end_fill()
-
 
     # reflecting light
     l1.pencolor("blue")
@@ -124,7 +121,6 @@ def reflector():
     l1.setheading(270)
     l1.fd(100)
 
-
     l2.pencolor("blue")
     l2.pensize(5)
     l2.setheading(171)
@@ -133,6 +129,7 @@ def reflector():
     l2.fd(100) 
 
 def cassegrain():
+    screen.title("Cassegrain Telescope")
     # light entering
     t.pendown()
     t.pencolor("red")
@@ -146,8 +143,6 @@ def cassegrain():
     t.fd(5)
 
     # light ray in side of secondary mirror
-    l1=t.Turtle()
-    l2=t.Turtle()
     l1.penup()
     l2.penup()
     l1.setpos(-158,30)
@@ -220,7 +215,8 @@ def cassegrain():
 
 # refractor()
 # reflector()
-cassegrain()
+# cassegrain()
 
 
-t.mainloop()
+
+# t.mainloop()
