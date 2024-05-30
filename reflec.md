@@ -9,7 +9,20 @@ Based on construction reflector classified in to three types
 3. Schmidt-Cassegrain Telescope
 
 ### <span style="color:rgb(200,150,108)">COMA</span>
-It is a type of spherical aberration that is a result of when light from objects off the optical axis is not focused properly due to the shape of the mirror. This defect causes off-axis points of light to appear as distorted, comet-shaped images rather than sharp points. For observation COMA will have not occur more than it comes to photography. A coma corrector evice is used to overcome in this type than lens.
+It is a type of spherical aberration that is a result of when light from objects off the optical axis is not focused properly due to the shape of the mirror. This defect causes off-axis points of light to appear as distorted, comet-shaped images rather than sharp points. For observation COMA will have not occur more than it comes to photography. A coma corrector device is used to overcome in this type than lens.
 
 Generally this types of scope takes much heat and slower in cooling time where cooling fans are used.
 
+### Newtonian Type
+Most of the telescope design we used today are based on this Newtonian type. It was so simple and easy.<br>
+![Newtonian Type](https://littleastronomy.com/wp-content/uploads/2022/07/newtonian-diagram.jpg)<br>
+This type reflect the light about two-third of the length of the tube (shorter focal length) makes relatively fast observation.
+### Cassegrain Type
+Also known as catadioptric or compound telescope. This are modern type and extremely popular because of high quality optics.The design was proposed in 1672 by French priest Laurent Cassegrain. <br>
+![Cassegrain type](https://cdn.britannica.com/30/4630-050-74737DDC/mirror-reflector-Cassegrain-tube-light-hole-eyepiece.jpg)<br>
+![cassegrain](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.bhphotovideo.com%2Fimages%2Fimages2000x2000%2Fmeade_0610_08_00_6_lx80_for_10_1010848.jpg&f=1&nofb=1&ipt=1e71f306a573a3bd188c305a33d99197a92667a765567538bcb59c48811522be&ipo=images)<br>
+It use combination of mirror and lenses. It has a correcting plate of lens at the entrance which allow light pass through.
+
+### Schmidt-Cassegrain Telescope
+![SCT](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fscopethegalaxy.com%2Fwp-content%2Fuploads%2F2020%2F12%2F20201224_224047_0000.png&f=1&nofb=1&ipt=09721778b20ff028597d647bf38f8c8234b8ccf8aef8ab61719f0d388edcf8e7&ipo=images)<br>
+The SCT telescope has a primary and secondary mirror, but it also uses a very thin lens called a corrector plate to improve the image. The light path of a Schmidt-Cassegrain is folded, which means the light takes a couple of bounces before it reaches your eye. This is why the SCT telescope tube is shorter than other designs of the same aperture, making it easier to carry, store, and attach to your mount of choice.
