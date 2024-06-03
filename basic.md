@@ -44,4 +44,15 @@ $efl=\frac{f_1 \times f_2}{f_1 +f_2 -d}$
 * $f_2$ => focal length of eye lens 
 * d => separation of lens
 
-## 
+## Focal point
+It is the place along the axis perpendicular to the lens/mirror where perfect image visible or forms.
+
+## Eyepiece
+Allows to magnify the image. The smaller the focal length the greater magnification can be done. The magnification value can be calculated by <br>
+ $Magnification=\frac{f_t}{f_e}$<br>
+ * $f_t$ => focal length of telescope. 
+ * $f_e$ => focal length of eyepiece.
+
+ #### Stimulation site
+ * [Focal Length](https://phet.colorado.edu/en/simulations/geometric-optics-basics)
+ * [Refraction & Reflection, Curvature](https://phet.colorado.edu/en/simulations/geometric-optics)
